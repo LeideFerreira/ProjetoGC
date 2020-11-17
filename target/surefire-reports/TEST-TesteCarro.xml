@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TesteCarro" time="0.158" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TesteCarro" time="0.742" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -59,12 +59,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="ComparaCarros_Sucesso" classname="TesteCarro" time="0.024"/>
-  <testcase name="ComparaCarros_Falha" classname="TesteCarro" time="0.019">
-    <failure message="expected:&lt;11&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<11> but was:<1>
-	at TesteCarro.ComparaCarros_Falha(TesteCarro.java:47)
-]]></failure>
-    <system-out><![CDATA[Modelos difentes: um é do : DusterE outro da :Captur
-]]></system-out>
-  </testcase>
+  <testcase name="ComparaCarros_Sucesso" classname="TesteCarro" time="0.06"/>
+  <testcase name="ComparaCarros_Falha" classname="TesteCarro" time="0.007"/>
 </testsuite>
