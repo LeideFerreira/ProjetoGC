@@ -44,6 +44,6 @@ public class TesteCarro {
         carro2.setMarca("Renault");
         carro2.setModelo("Captur");
 
-        assertEquals(1,instance.comparaModelo(carro1,carro2)); //1 para falso
+        assertEquals(11,instance.comparaModelo(carro1,carro2)); //1 para falso
      }
 }
