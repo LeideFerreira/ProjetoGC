@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TesteCarro
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.742 sec - in TesteCarro
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec <<< FAILURE! - in TesteCarro
+ComparaCarros_Falha(TesteCarro)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<11> but was:<1>
+	at TesteCarro.ComparaCarros_Falha(TesteCarro.java:47)
+
